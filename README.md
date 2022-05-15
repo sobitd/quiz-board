@@ -34,7 +34,7 @@
 * Javascript - This technology was used to populate the html form and validate choices from the user and give a score.
 
 
-## Installation PrUocess
+## Installation Process
 *Clone from the repository using the command: 
 *Unzip the downloaded files in the directory where you will be working from.
 *Open the index.html file from the directory with a web browser.

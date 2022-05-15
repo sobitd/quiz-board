@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background-color: #c4c4c4;
+    font-family: 'Poppins','Inter','Actor';
+    overflow: hidden;
+}
+

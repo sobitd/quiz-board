@@ -45,3 +45,21 @@ function showQuiz(){
 }
 
 showQuiz();
+
+//function to check on the correctness of user's choice
+
+function unselectedChoice (){
+    choices.forEach(choices => choices.checked = false)
+}
+
+function selectedChoice(){
+    choices.forEach(choice => {
+        if(choice.checked){
+            choice = choice.id
+        }
+    })
+    return choice
+}
+
+//when the submit button is clicked 
+submit.addEventListener('click', )

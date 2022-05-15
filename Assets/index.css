@@ -8,18 +8,66 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 120vh;
     width: auto;
     background-color: #c4c4c4;
     font-family: 'Poppins','Inter','Actor';
     overflow: hidden;
 }
 
+#container-wrapper{
+    background-color: #d2b6b6;
+    width: 60vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
 h1 {
     font-size: 3.5em;
     font-family: 'Actor';
-    padding: 40px;
-    margin: 40px;
+    padding: 20px 30px;
+    text-align: center;
 }
+
+.question-header{
+    padding: 20px;
+}
+
+h3{
+    padding:20px;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+input{
+    margin-left: 45%;
+}
+
+label{
+    font-family: 'Actor';
+    font-weight: 600;
+}
+
+#submit-button{
+    padding:2% 20%;
+    margin: 0 25%;
+    font-family: 'Inter';
+    font-size: 1.5em;
+    border-radius: 8px;
+    border: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -30,3 +30,18 @@ var questionsArray = [
         correct: "answerOne",
     },
 ];
+
+//Function to populate the html form with questions and answers that a user chooses
+
+var lastQuizPosition = questionsArray.length - 1; //index starts from 0 so the - 1 is to find the last index in an array
+var currentQuizPosition = 0; //the currect question position in the array
+
+function showQuiz(){ 
+    var qn = questionsArray[currentQuizPosition];
+    question.innerHTML = qn.question;
+    answerOneText.innerHTML = qn.answerOne;
+    answerTwoText.innerHTML = qn.answerTwo;
+    answerThreeText.innerHTML = qn.answerThree;
+}
+
+showQuiz();

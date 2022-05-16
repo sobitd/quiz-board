@@ -6,35 +6,35 @@
 
 body{
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
-    height: 120vh;
+    height: 200vh;
     width: auto;
     background-color: #c4c4c4;
     font-family: 'Poppins','Inter','Actor';
-    overflow: hidden;
+    margin: 2%;
 }
 
 #container-wrapper{
     background-color: #d2b6b6;
     width: 60vw;
-    height: 70vh;
+    height: 100vh;
     overflow: hidden;
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-family: 'Actor';
-    padding: 20px 30px;
+    padding: 10px 15px;
     text-align: center;
 }
 
 .question-header{
-    padding: 20px;
+    padding: 10px;
 }
 
 h3{
-    padding:20px;
+    padding:10px;
     text-align: center;
     margin: 0;
     color: white;
@@ -48,22 +48,34 @@ label{
     font-weight: 600;
 }
 
-#next-button{
-    padding:2% 10%;
-    margin: 0 25%;
+#submit-button, #restartQuiz{
+    padding:1% 15%;
+    margin: 0 30%;
     font-family: 'Inter';
     font-size: 1.5em;
     border-radius: 8px;
     border: 1px;
 }
 
-#submit-button{
-    padding:2% 20%;
-    margin: 0 25%;
-    font-family: 'Inter';
-    font-size: 1.5em;
-    border-radius: 8px;
-    border: 1px;
+
+#results-wrapper{
+    background-color: #d2b6b6;
+    width: 60vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.resultsDisplay{
+    margin-top: 10%;
+    font-size: 3em;
+}
+
+#results{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: "Poppins";
+    padding: 10px;
+    text-align: center;
 }
 
 
